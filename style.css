@@ -46,3 +46,18 @@ header{
 .menu li a:hover{
     background-color: rgb(12, 162, 112);
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: o.7fr 1fr 1fr;
+    grid-template-rows: repeat(none 3);
+    grid-template-areas: 
+    "sidnav item1 item2"
+    "sidnav item3 item4"
+    "footer footer footer";
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #fff;
+}
